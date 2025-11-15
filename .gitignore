@@ -1,0 +1,11 @@
+# Firebase specific files and folders
+.firebaserc
+firebase-debug.log
+node_modules
+
+# Log files
+*.log
+
+# Local dependencies
+npm-debug.log*
+yarn-error.log*

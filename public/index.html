@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operation: REGISTRATION - Vishwashauryam</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    <header class="military-header">
+        <h1>Vishwashauryam Command Center</h1>
+        <h2>Operation: THE GAUNTLET Registration</h2>
+    </header>
+
+    <main>
+        <section class="event-info">
+            <div class="mission-briefing">
+                <h3>MISSION BRIEFING</h3>
+                <p><strong>Status:</strong> Active Deployment</p>
+                <p><strong>Objective:</strong> Test your mettle and strategic prowess in 'The Gauntlet,' a series of high-stakes technical and tactical challenges. Only the most prepared cadets will prevail.</p>
+                <p><strong>Date & Time:</strong> 25 DEC 2025, 1000 HRS</p>
+                <p><strong>Location:</strong> Main Tactical Lab (C-Block)</p>
+                <p class="warning">***FAILURE IS NOT AN OPTION. REPORT TO REGISTRATION IMMEDIATELY.***</p>
+            </div>
+            
+        </section>
+
+        <section class="registration-section">
+            <h3>CADET REGISTRATION FORM</h3>
+            <form id="registration-form">
+                <div class="form-group">
+                    <label for="cadet-name">Cadet Name (Full Name)</label>
+                    <input type="text" id="cadet-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="cadet-id">Service ID (Roll Number)</label>
+                    <input type="text" id="cadet-id" required>
+                </div>
+                <div class="form-group">
+                    <label for="cadet-email">Secure Comms (Email)</label>
+                    <input type="email" id="cadet-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="cadet-phone">Field Contact (Phone)</label>
+                    <input type="tel" id="cadet-phone" required>
+                </div>
+                <button type="submit" class="btn-deploy">Deploy & Register</button>
+                <p id="feedback-message" class="feedback-text"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="military-footer">
+        <p>&copy; 2025 Vishwashauryam Technical Command. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

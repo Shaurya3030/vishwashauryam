@@ -1,0 +1,130 @@
+/* General Setup and Military Theme */
+:root {
+    --primary-color: #4CAF50; /* Military Green */
+    --secondary-color: #2E2E2E; /* Dark/Charcoal */
+    --text-color: #F0F0F0; /* Light Gray/White */
+    --accent-color: #E74C3C; /* Red for warnings/accents */
+    --font-family: 'Arial', sans-serif; /* Use a strong, readable font */
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: #1a1a1a; /* Very dark background */
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.military-header {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid var(--primary-color);
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Event Info Section */
+.event-info {
+    background-color: #333;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.5); /* Glowing effect */
+}
+
+.mission-briefing h3 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.warning {
+    color: var(--accent-color);
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Registration Form */
+.registration-section {
+    background-color: #222;
+    padding: 30px;
+    border: 1px dashed #555;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--primary-color);
+    background-color: #111;
+    color: var(--text-color);
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: var(--accent-color);
+    outline: none;
+}
+
+.btn-deploy {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.btn-deploy:hover {
+    background-color: #66BB6A;
+    transform: translateY(-2px);
+}
+
+.feedback-text {
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+/* For JavaScript feedback */
+.feedback-success { color: var(--primary-color); }
+.feedback-error { color: var(--accent-color); }
+
+.military-footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: var(--secondary-color);
+    color: #666;
+    margin-top: 30px;
+    font-size: 0.8em;
+}

@@ -1,0 +1,48 @@
+type User @table {
+  displayName: String!
+  createdAt: Timestamp!
+  militaryStatus: String!
+  email: String
+  photoUrl: String
+  branchOfService: String
+  rank: String
+  serviceStartDate: Date
+  serviceEndDate: Date
+  location: String
+  bio: String
+}
+
+type Post @table {
+  content: String!
+  createdAt: Timestamp!
+  author: User
+  group: Group
+  imageUrl: String
+  privacySetting: String
+  title: String
+}
+
+type Group @table {
+  name: String!
+  createdAt: Timestamp!
+  privacySetting: String!
+  creator: User
+  description: String
+  imageUrl: String
+}
+
+type Connection @table {
+  initiator: User!
+  recipient: User!
+  status: String!
+  createdAt: Timestamp!
+}
+
+type Resource @table {
+  title: String!
+  url: String!
+  category: String!
+  createdAt: Timestamp!
+  description: String
+  contactInfo: String
+}
