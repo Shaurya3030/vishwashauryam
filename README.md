@@ -38,10 +38,20 @@ This project is a functional, cloud-hosted event registration page for Vishwasha
 
 ### Live Demo
 The registration page is live and fully functional at:
-**[YOUR LIVE FIREBASE HOSTING URL HERE, e.g., https://vishwashauryam-reg-1234.web.app]**
+**🎉 **Awesome! You're welcome!**
+
+Glad it's working now! Your registration form is successfully saving data to Firebase Firestore.
+
+**To view your registration data:**
+
+1. Go to **Firebase Console**: https://console.firebase.google.com/project/vishwashauryam-registeration/firestore
+2. Look at the **`registrations` collection** to see all submitted registrations
+3. Each registration is saved with the Cadet's Service ID (Roll Number) as the document ID
+
+**Your live website is at:** https://winter-accord-472417-d6.web.app **
 
 ---
 
 ## 👨‍💻 Technical Coordinator
-* **Name:** [Your Name]
-* **Club:** Vishwashauryam Technical Command
+* **Name:** Shaurya Pandey
+* **Club:** Vishwashauryam 
